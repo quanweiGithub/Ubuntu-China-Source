@@ -1,4 +1,19 @@
 
+
+TODO 优化代码 test PR
+支持命令行参数安装
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/seognil-forker/Ubuntu-China-Source/master/ChangeSource.sh) 18 ali"
+```
+
+---
+
+命令行安装方法
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/quanweiGithub/Ubuntu-China-Source/master/ChangeSource.sh)"
+```
+
+
 该篇博客主要介绍使用脚本快速更换Ubuntu源，方便快捷，直接上图。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190107152645686.gif)
