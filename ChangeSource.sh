@@ -100,8 +100,7 @@ main () {
     sudo apt-get -y install git
 
     echo "下载源列表..."
-    # git clone https://github.com/quanweiGithub/Ubuntu-China-Source
-    git clone https://github.com/seognil-forker/Ubuntu-China-Source
+    git clone https://github.com/quanweiGithub/Ubuntu-China-Source
     cd Ubuntu-China-Source
     ls
 
