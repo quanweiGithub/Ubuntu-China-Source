@@ -63,14 +63,14 @@ main () {
     fi
 
     if [ $src_choice = 'ali' ]; then
-        ;
+        :
     elif [ $src_choice = 'thu' ]; then
-        ;
+        :
     elif [ $src_choice = '163' ]; then
-        ;
+        :
     else
         echo "输入格式错误"
-        exit
+        # exit
     fi
 
     echo "目标源："$src_choice
