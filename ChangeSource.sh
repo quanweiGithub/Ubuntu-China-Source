@@ -62,9 +62,12 @@ main () {
         src_choice=`echo "$SourceChoice*1" | bc `
     fi
 
-    if [ $src_choice -eq 'ali' ]; then
-    elif [ $src_choice -eq 'thu' ]; then
-    elif [ $src_choice -eq '163' ]; then
+    if [ $src_choice = 'ali' ]; then
+        ;
+    elif [ $src_choice = 'thu' ]; then
+        ;
+    elif [ $src_choice = '163' ]; then
+        ;
     else
         echo "输入格式错误"
         exit
@@ -73,8 +76,17 @@ main () {
     echo "目标源："$src_choice
 
 
-    # * ---------------------------------------------------------------- apply
+    # * ---------------------------------------------------------------- delay
 
+    echo -n 'Will start at... '
+    echo -n '3 '
+    sleep 1s
+    echo -n '2 '
+    sleep 1s
+    echo -n '1 '
+    sleep 1s
+
+    # * ---------------------------------------------------------------- apply
 
     echo "安装 git..."
     sudo apt-get -y install git
